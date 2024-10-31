@@ -1,0 +1,63 @@
+
+.contenedorEventos {
+    height: calc(100vh - 146px);
+    margin-top: 128px;
+}
+
+.descripcionEvento {
+    height: 200px;
+}
+
+.divimgEvento {
+    height: 100%;
+}
+
+.imgEvento {
+    width: 100%;
+    height: 90%;
+}
+
+
+.carta-eventos {
+    min-height: 400px;
+    min-width: 320px;
+    max-width: 390px;
+    background-color: rgb(255,255, 255, 0.2);
+    padding: 20px;
+}
+
+.img-carta{
+    min-height: 400px;
+    max-width: 390px;
+}
+
+
+
+.eventos {
+    height: 100%;
+    padding: 30px;
+}
+@media screen and (max-width: 800px) {
+    .eventos {
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        height: calc(100% - 52px);
+    }
+    
+    .divimgEvento {
+        width: 90%;
+        max-height: 500px; 
+    }
+
+    .descripcionEvento {
+        width: 90%;
+        max-height: 200px; /* Permite que la altura sea flexible */
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .eventos {
+        flex-wrap: wrap;
+    }
+}

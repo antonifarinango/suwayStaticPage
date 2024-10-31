@@ -71,7 +71,7 @@ function Inicio (){
                     
                 </div>
                 <div className="proximos-eventos d-flex justify-content-center align-items-center">
-                    <Link className="proximos-eventos-btn btn" to="eventos">Proximos Eventos</Link>
+                    <Link className="proximos-eventos-btn btn font" to="eventos">Proximos Eventos</Link>
                 </div>
             </div>
             

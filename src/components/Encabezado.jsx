@@ -49,9 +49,9 @@ function Encabezado() {
                 <div className={`col-xl-6 col-lg-6 ${windowSize.width < 800 ? 'col-sm-6' : 'col-sm-7'} ${windowSize.width < 800 ? 'col-6' : 'col-9'} d-flex justify-content-center align-items-center`}>
                     <nav className="container-menuHamburguer">
                         <div onClick={toggleBtn} className="container-line-menu">
-                            <div className={toggle ? "line-menuHamburguer" : "line-menuHamburguer1"}></div>
-                            <div className={toggle ? "line-menuHamburguer" : "line-menuHamburguer2"}></div>
-                            <div className={toggle ? "line-menuHamburguer" : "line-menuHamburguer3"}></div>
+                            <div className={toggle ? "line-menuHamburguer1" : "line-menuHamburguer"}></div>
+                            <div className={toggle ? "line-menuHamburguer2" : "line-menuHamburguer"}></div>
+                            <div className={toggle ? "line-menuHamburguer3" : "line-menuHamburguer"}></div>
                         </div>
                     </nav>
 

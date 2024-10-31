@@ -43,7 +43,7 @@ function Encabezado() {
                         <Link className="nav-link font text-light" to="eventos" onClick={closeMenu}>Eventos</Link>
                     </nav>
                 </div>
-                <div className={`col-xl-6 col-lg-6 ${windowSize.width < 800 ? 'col-sm-6' : 'col-sm-5'} ${windowSize.width < 800 ? 'col-6' : 'col-3'} d-flex justify-content-center align-items-center`}>
+                <div className={`col-xl-6 col-lg-6 ${windowSize.width < 800 ? 'col-sm-6' : 'col-sm-5'} ${windowSize.width < 800 ? 'col-6' : 'col-3'} d-flex justify-content-center align-items-center  `}>
                     <span className="text-encabezado display-4 text-light">Suway</span>
                 </div>
                 <div className={`col-xl-6 col-lg-6 ${windowSize.width < 800 ? 'col-sm-6' : 'col-sm-7'} ${windowSize.width < 800 ? 'col-6' : 'col-9'} d-flex justify-content-center align-items-center`}>

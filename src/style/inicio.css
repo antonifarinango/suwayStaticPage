@@ -19,7 +19,7 @@
     height: 100%;
     width: 60px;
     background-color: rgba(0, 0, 0, 0.460);
-    z-index: 100;
+    z-index: 10;
     border: none;
     color: rgba(255, 255, 255, 0.460);
     font-size: 30px;

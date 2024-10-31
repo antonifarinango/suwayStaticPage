@@ -1,6 +1,6 @@
 
 import './App.css'
-import Contactar from './components/contactar'; 
+import Contactar from "./components/Contactar_templ" 
 import Encabezado from './components/Encabezado';
 import Inicio from './components/Inicio';
 import SobreNosotros from './components/SobreNosotros';

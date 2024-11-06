@@ -1,6 +1,5 @@
 import React from "react";
 import "../style/contactar.css";
-import { Link } from "react-router-dom";
 import facebook from "../assets/img/contactos/facebook.png";
 import whatsapp from "../assets/img/contactos/social.png";
 import gmail from "../assets/img/contactos/gmail.png"
